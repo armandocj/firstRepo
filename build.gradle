@@ -31,6 +31,7 @@ sourceSets {
 }
 
 test {
+	def variable = ""
     useTestNG(){
         ignoreFailures = true
         useDefaultListeners = true
